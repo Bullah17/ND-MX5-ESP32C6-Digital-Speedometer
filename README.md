@@ -1,6 +1,8 @@
 # ND-MX5-ESP32C6-Digital-Speedometer (WIP)
 This is an ESP-32 based digital speedometer for the ND MX5. Designed to be inserted directly in-between the top of the gauge cluster binnacle and the tachnometer. I made it to be semi-unobtrusive, while also remaining in your peripheral view when driving. 
 
+![Display Assembly](/assembly.png "Assembly")
+
 ## Features
 Uses ESP-NOW to wirelessly obtain the speed and rpm values from another esp-32 based CAN bus reader (you'll need to source that yourself).
 * Powered either by USB or through the headerpins behind (for a cleaner setup)
